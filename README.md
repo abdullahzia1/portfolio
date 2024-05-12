@@ -1,6 +1,6 @@
 # PORTFOLIO
 
-My personal portfolio website. Check the live website [here](https://joonakettunen.netlify.app "Portfolio Joona Kettunen") hosted by [Netlify](https://www.netlify.com/ "Netlify - Connect everything. Build anything.").
+My personal portfolio website. Check the live website [here](https://www.abdullahzia.xyz "Portfolio Abdullah Zia")
 
 ## General
 
