@@ -31,7 +31,7 @@ const Footer = () => {
               <RxGithubLogo className="w-4 h-4" />
             </Button>
           </a>
-          <a href="https://linkdein.com/in/abdullahzia55" target="_blank">
+          <a href="https://linkedin.com/in/abdullahzia55" target="_blank">
             <Button variant="ghost">
               <RxLinkedinLogo className="w-4 h-4" />
             </Button>
