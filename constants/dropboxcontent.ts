@@ -2,7 +2,7 @@ const DROPBOX_CONTENT = {
   titleVideo:
     "https://dl.dropboxusercontent.com/scl/fi/kfvrri1r7qdr3vn2z61bk/titlevideo.mp4?rlkey=t3xscp7prok74snt51dyj5qr0&st",
   profPic:
-    "https://www.dropbox.com/scl/fi/94zkzy5b0ohllgvjr8waa/Picsart_24-05-12_18-48-09-395-2.jpg?rlkey=olchlan9ooxx9tkfh3zpc1j42&st=md6xprf2&dl=0",
+    "https://uce8b38b4bd0418d6dce4cb21e80.previews.dropboxusercontent.com/p/thumb/ACRQNMesPua3q25A5uIqKVpAze73H2Kq35dndbeSJyC0GHA0kA5XC_axkSnF73frXV9P42cfNRv3l4cSjHjlduta58-oGCz_mcINed8AlAPFM5RWW_T0DGLUryCXHsQxOzFeIXMQPBIkTPuq_Sn3LIFUoyGIQzDUAEYYOpx6-N2UULIS7GrQaUSTXsDuM5LBYrtfWDokHgtYKmw352oSSdRm05ZCENZ62fs9uZEJ4b84Vca_Pv5glpAyNotrAkQljqdK95r5GHl2qJ9mgqc0WADDZvZzYYa-AoHfOfJhih3c1rqZj0zwV_DavuSRW-xGQIhKrOK33LECc_SI471_9Eqd4M6kKBWIdneqk-KQAUjtriv_5b1Rx00Hj6yT5PTHswM/p.jpeg",
   thumbnail_ECOMMERCEAPI:
     "https://uc5084f04fd0523ec3449060922c.previews.dropboxusercontent.com/p/thumb/ACSfywknig-xeaNcmyvLFHBpLpLDzhP9mf-zREPQ4dy-p4UXi-yWPeZnRbUIH7AWzpP5DVH1Dir42Hn7Qa1tyUgE1K5BSxITq281_aAu4QlcfAWnAQGoPBtknDAXbBduz6y2kMdP0LGrpY9TZpMy_q51nd6EHnnxOPlvfRLhYjjNhZ1SjuR9c1roETE_FDBQHcuga3eQqwxipd7mDDdl528eHh7cxaXomhUHjBFtmGGp-bIHYGGbECJqS5FiYa-ehRc-x-lm7_vVmgJ_7qOrGAz4qLff8LBj4s4UhYOvd8JgZv2T8iRMZNrq70SoaLtS8uEzfHeyykNBSbNr5_1UbDqOBrP39bSGwMA0Qg2n5yaR0hrK1jOMy1EeAkum6xGNTC6xhotjhP1zA5CYrHIq_Koa/p.png",
   thumbnail_BOOKREVIEWAPI:
