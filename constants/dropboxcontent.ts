@@ -2,7 +2,7 @@ const DROPBOX_CONTENT = {
   titleVideo:
     "https://dl.dropboxusercontent.com/scl/fi/kfvrri1r7qdr3vn2z61bk/titlevideo.mp4?rlkey=t3xscp7prok74snt51dyj5qr0&st",
   profPic:
-    "https://uce8b38b4bd0418d6dce4cb21e80.previews.dropboxusercontent.com/p/thumb/ACT-dWP1HBjMkaaiPIDdrHegeED51yCuCsbZ0vl4_OvKGK_EjqMnI2pDL0UByoe-XTEyoYkUeCcj3yfqZS32I4BorkB-KnYVA8nYhcSeuoQIN1Wz1_5AYHaR3_6PE1-sF9i7Dt9ghYkrBkNo0gD1q57ovJwNx8tiodK0-FqBoOcdpLVbozTZxjlASDOFlXzyi8_mIIrg7VNnkDMmKS_L0s_7LrfE2ngZUfIjDe9LJVA7TZ_acTrzudcmHOjAQrQki3yoROsFsGb8FzfYxFKWNCK-NSvbYDtiS3SKIUAqm--QfhrOgdE-OB41Evj5L4KrBxWP6KRYI9RAmwc_b6fCRz4p6g8tS15nEn2zyKkp2tFXxw/p.jpeg",
+    "https://www.dropbox.com/scl/fi/94zkzy5b0ohllgvjr8waa/Picsart_24-05-12_18-48-09-395-2.jpg?rlkey=olchlan9ooxx9tkfh3zpc1j42&st=md6xprf2&dl=0",
   thumbnail_ECOMMERCEAPI:
     "https://uc5084f04fd0523ec3449060922c.previews.dropboxusercontent.com/p/thumb/ACSfywknig-xeaNcmyvLFHBpLpLDzhP9mf-zREPQ4dy-p4UXi-yWPeZnRbUIH7AWzpP5DVH1Dir42Hn7Qa1tyUgE1K5BSxITq281_aAu4QlcfAWnAQGoPBtknDAXbBduz6y2kMdP0LGrpY9TZpMy_q51nd6EHnnxOPlvfRLhYjjNhZ1SjuR9c1roETE_FDBQHcuga3eQqwxipd7mDDdl528eHh7cxaXomhUHjBFtmGGp-bIHYGGbECJqS5FiYa-ehRc-x-lm7_vVmgJ_7qOrGAz4qLff8LBj4s4UhYOvd8JgZv2T8iRMZNrq70SoaLtS8uEzfHeyykNBSbNr5_1UbDqOBrP39bSGwMA0Qg2n5yaR0hrK1jOMy1EeAkum6xGNTC6xhotjhP1zA5CYrHIq_Koa/p.png",
   thumbnail_BOOKREVIEWAPI:
