@@ -6,6 +6,8 @@ import { Inter } from "next/font/google";
 
 import { ThemeProvider } from "@/components/themeprovider";
 
+import { Analytics } from "@vercel/analytics/react";
+
 const Navbar = dynamic(() => import("../components/navbar/navbar"), {
   ssr: false,
 });
@@ -44,6 +46,7 @@ export default async function RootLayout({
             </div>
           </main>
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   );
