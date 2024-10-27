@@ -90,7 +90,7 @@ const PROJECTS: Project[] = [
     id: "https://gamediscovery-three.vercel.app/",
     title: "Games Discovery",
     about:
-      "RAWG website clone for enhancing skills on frontend development. Implemented unlimited Scroll as of now with responsive UI.",
+      "RAWG website clone built on ChakraUI. Implemented unlimited Scroll with responsive UI.",
     description: RAWG_DESCRIPTION(),
     skills: [
       {
@@ -127,9 +127,9 @@ const PROJECTS: Project[] = [
     deployedOn: "Amazon EC2",
     date: "Under Development",
     id: "https://github.com/abdullahzia1/SaaS-ChatApp",
-    title: "SaaS Chat-App",
+    title: "SaaS Chatbot",
     about:
-      "Developed a conversational chatbot powered by the OpenAI API, with a user-friendly interface built in React and TypeScript. Managed application state using Context API and implemented secure authentication with JWT with registration on RESTful APIs Endpoints in Node.js and stored chats for optimized answer in MongoDB. Leveraged Chakra UI for an accessible, responsive design and hosted the application on Vercel for scalability.",
+      "Developed a conversational chatbot powered by the OpenAI API and MERN Stack.",
     description: SAAS_CHATBOT(),
     skills: [
       {

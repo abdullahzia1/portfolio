@@ -33,7 +33,7 @@ const ProjectPanel = ({ project }: ProjectPanelProps) => {
             {project.id === "cheezbaich.com" && <FlagShip text="FLAGSHIP" />}
           </div>
           <p className="text-neutral-500 font-light text-sm sm:text-base">
-            {`${project.about.slice(0, 100)}...`}
+            {project.description}
           </p>
         </div>
       </div>

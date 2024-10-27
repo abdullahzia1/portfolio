@@ -7,7 +7,11 @@ import { Button } from "@/components/ui/button";
 import PROJECTS from "@/constants/projects/projects";
 
 const Projects = () => {
-  const firstFour = PROJECTS.slice(0, 4);
+  const modifiedProjects = PROJECTS.map((project) => ({
+    ...project,
+    description: project.about,
+  }));
+  const firstFour = modifiedProjects.slice(0, 4);
 
   return (
     <div
