@@ -5,6 +5,8 @@ import {
   RAWG_DESCRIPTION,
   ECOMMERCE_DESCRIPTION,
   BOOKREVIEWAPI_DESCRIPTION,
+  SAAS_CHATBOT,
+  ChatterTask,
 } from "./descriptions";
 
 const PROJECTS: Project[] = [
@@ -84,11 +86,11 @@ const PROJECTS: Project[] = [
     href: "https://github.com/abdullahzia1",
     thumbnail: DROPBOX_CONTENT.thumbnail_RAWG,
     deployedOn: "Netlify",
-    date: "Under development",
-    id: "https://github.com/abdullahzia1/GameDiscovery/",
-    title: "RAWG",
+    date: "06/2024",
+    id: "https://gamediscovery-three.vercel.app/",
+    title: "Games Discovery",
     about:
-      "RAWG website clone for enhancing skills on frontend development. Implemented unlimited Scroll as of now.",
+      "RAWG website clone for enhancing skills on frontend development. Implemented unlimited Scroll as of now with responsive UI.",
     description: RAWG_DESCRIPTION(),
     skills: [
       {
@@ -117,6 +119,113 @@ const PROJECTS: Project[] = [
       },
     ],
   },
+  {
+    media: DROPBOX_CONTENT.media_todo,
+    mediaDescription: "The correct video has not yet been added.",
+    href: "https://github.com/abdullahzia1/SaaS-ChatApp",
+    thumbnail: DROPBOX_CONTENT.thumbnail_RAWG,
+    deployedOn: "Amazon EC2",
+    date: "Under Development",
+    id: "https://github.com/abdullahzia1/SaaS-ChatApp",
+    title: "SaaS Chat-App",
+    about:
+      "Developed a conversational chatbot powered by the OpenAI API, with a user-friendly interface built in React and TypeScript. Managed application state using Context API and implemented secure authentication with JWT with registration on RESTful APIs Endpoints in Node.js and stored chats for optimized answer in MongoDB. Leveraged Chakra UI for an accessible, responsive design and hosted the application on Vercel for scalability.",
+    description: SAAS_CHATBOT(),
+    skills: [
+      {
+        name: "TypeScript",
+        icon: "https://img.shields.io/badge/-TypeScript-informational?style=for-the-badge&color=black&logo=typescript",
+      },
+      {
+        name: "Chakra UI",
+        icon: "https://img.shields.io/badge/-ChakraUI-informational?style=for-the-badge&color=black&logo=chakraui",
+      },
+      {
+        name: "React",
+        icon: "https://img.shields.io/badge/-React-informational?style=for-the-badge&color=black&logo=react",
+      },
+      {
+        name: "Vercel",
+        icon: "https://img.shields.io/badge/vercel-%23316192.svg?style=for-the-badge&color=black&logo=vercel&logoColor=white",
+      },
+      {
+        name: "OpenAI API",
+        icon: "https://img.shields.io/badge/OpenAI_API-informational?style=for-the-badge&color=black&logo=openai&logoColor=green",
+      },
+      {
+        name: "Context API",
+        icon: "https://img.shields.io/badge/-ContextAPI-informational?style=for-the-badge&color=black&logo=react",
+      },
+      {
+        name: "Node.js",
+        icon: "https://img.shields.io/badge/Node.js-informational?style=for-the-badge&color=black&logo=node.js",
+      },
+      {
+        name: "Express.js",
+        icon: "https://img.shields.io/badge/Express.js-informational?style=for-the-badge&color=black&logo=express",
+      },
+      {
+        name: "MongoDB",
+        icon: "https://img.shields.io/badge/MongoDB-informational?style=for-the-badge&color=black&logo=mongodb",
+      },
+    ],
+  },
+  {
+    media: DROPBOX_CONTENT.media_todo,
+    mediaDescription: "A demo video for ChatterTask is coming soon.",
+    href: "https://github.com/abdullahzia1/ChatterTask",
+    thumbnail: DROPBOX_CONTENT.thumbnail_RAWG,
+    deployedOn: "Amazon EC2",
+    date: "Under Development",
+    id: "https://github.com/abdullahzia1/ChatterTask",
+    title: "ChatterTask",
+    about:
+      "ChatterTask is a real-time WebSocket-based chat application with integrated todo management for user task tracking. Built with the PERN stack and TypeScript, it uses Context API for state management and Tailwind CSS for responsive design. Features include OAuth for login, custom signup and login options, and secure data handling. The app is hosted on Amazon EC2 for robust scalability and performance.",
+    description: ChatterTask(),
+    skills: [
+      {
+        name: "TypeScript",
+        icon: "https://img.shields.io/badge/-TypeScript-informational?style=for-the-badge&color=black&logo=typescript",
+      },
+      {
+        name: "PostgreSQL",
+        icon: "https://img.shields.io/badge/PostgreSQL-informational?style=for-the-badge&color=black&logo=postgresql",
+      },
+      {
+        name: "Express.js",
+        icon: "https://img.shields.io/badge/Express.js-informational?style=for-the-badge&color=black&logo=express",
+      },
+      {
+        name: "React",
+        icon: "https://img.shields.io/badge/-React-informational?style=for-the-badge&color=black&logo=react",
+      },
+      {
+        name: "Node.js",
+        icon: "https://img.shields.io/badge/Node.js-informational?style=for-the-badge&color=black&logo=node.js",
+      },
+      {
+        name: "Tailwind CSS",
+        icon: "https://img.shields.io/badge/-TailwindCSS-informational?style=for-the-badge&color=black&logo=tailwindcss",
+      },
+      {
+        name: "OAuth",
+        icon: "https://img.shields.io/badge/OAuth-informational?style=for-the-badge&color=black&logo=oauth",
+      },
+      {
+        name: "WebSockets",
+        icon: "https://img.shields.io/badge/WebSockets-informational?style=for-the-badge&color=black&logo=websocket",
+      },
+      {
+        name: "Context API",
+        icon: "https://img.shields.io/badge/-ContextAPI-informational?style=for-the-badge&color=black&logo=react",
+      },
+      {
+        name: "Amazon EC2",
+        icon: "https://img.shields.io/badge/AmazonEC2-informational?style=for-the-badge&color=black&logo=amazonaws",
+      },
+    ],
+  },
+
   {
     media: DROPBOX_CONTENT.media_todo,
     mediaDescription: "The correct video has not yet been added.",

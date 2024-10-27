@@ -1,7 +1,6 @@
 "use client";
 
 import ContactButton from "./contact";
-// import LanguageSwitch from "./languageswitch";
 import Logo from "./logo";
 import Shortcuts from "./shortcuts";
 import ThemeSwitch from "./themeswitch";
@@ -18,7 +17,6 @@ const Navbar = () => {
             </div>
           )}
         <div className="flex flex-row gap-2">
-          {/* <LanguageSwitch /> */}
           <ThemeSwitch />
           <ContactButton />
         </div>

@@ -1,7 +1,5 @@
 "use client";
 
-import { useTranslationStore } from "@/hooks/useTranslation";
-import TRANSLATION from "@/translations/translation";
 import { Project } from "@/types";
 
 import FlagShip from "../flagship";
@@ -11,8 +9,6 @@ interface ProjectPanelProps {
 }
 
 const ProjectPanel = ({ project }: ProjectPanelProps) => {
-  const { language } = useTranslationStore();
-
   return (
     <a href={project.id} target="_blank">
       <div
@@ -34,14 +30,10 @@ const ProjectPanel = ({ project }: ProjectPanelProps) => {
             <h3 className="text-xl sm:text-2xl font-bold group-hover:underline">
               {project.title}
             </h3>
-            {project.id === "cheezbaich.com" && (
-              <FlagShip
-                text={TRANSLATION[language].global.projectPanel.flagShip}
-              />
-            )}
+            {project.id === "cheezbaich.com" && <FlagShip text="FLAGSHIP" />}
           </div>
           <p className="text-neutral-500 font-light text-sm sm:text-base">
-            {project.about}
+            {`${project.about.slice(0, 100)}...`}
           </p>
         </div>
       </div>

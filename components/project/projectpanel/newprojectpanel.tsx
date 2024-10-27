@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 "use client";
 
 import { FaLinkedin, FaTelegramPlane } from "react-icons/fa";
@@ -15,31 +16,23 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
-import { useTranslationStore } from "@/hooks/useTranslation";
-import TRANSLATION from "@/translations/translation";
 
 import { Button } from "../../ui/button";
 
 const NewProjectPanel = () => {
-  const { language } = useTranslationStore();
-
   return (
     <Dialog>
       <DialogTrigger asChild>
         <div className="group hover:cursor-pointer transition hover:duration-100 duration-300 hover:scale-[1.03] shadow-light dark:shadow-neon w-full h-96 flex flex-col rounded-xl items-center justify-center bg-secondary">
           <HiPlusCircle className="h-48 w-48 text-foreground/50" />
-          <p className="font-bold text-xl">
-            {TRANSLATION[language].projects.newProject.new}
-          </p>
+          <p className="font-bold text-xl">NEW</p>
         </div>
       </DialogTrigger>
       <DialogContent className="sm:max-w-md">
         <DialogHeader>
-          <DialogTitle>
-            {TRANSLATION[language].projects.newProject.dialog.title}
-          </DialogTitle>
+          <DialogTitle>New project in mind?</DialogTitle>
           <DialogDescription>
-            {TRANSLATION[language].projects.newProject.dialog.subtitle}
+            Get in contact and let's discuss how to proceed.
           </DialogDescription>
         </DialogHeader>
         <div className="flex flex-col items-center gap-2 w-full">
@@ -89,7 +82,7 @@ const NewProjectPanel = () => {
         <DialogFooter className="w-full">
           <DialogClose asChild>
             <Button className="w-full" type="button" variant="outline">
-              {TRANSLATION[language].projects.newProject.dialog.closeBtn}
+              Close
             </Button>
           </DialogClose>
         </DialogFooter>

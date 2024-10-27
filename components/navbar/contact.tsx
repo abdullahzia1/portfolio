@@ -17,7 +17,11 @@ import {
 
 import { Button } from "../ui/button";
 
-const ContactButton = () => {
+interface contactButtonProps {
+  btnTxt?: string;
+}
+
+const ContactButton = ({ btnTxt }: contactButtonProps) => {
   return (
     <Dialog>
       <DialogTrigger asChild>
@@ -25,7 +29,7 @@ const ContactButton = () => {
           variant="ghost"
           className="bg-purple-500 text-white hover:bg-purple-500/75 hover:text-white/75"
         >
-          <p>Contact me</p>
+          <p>{btnTxt ?? "Contact me"}</p>
         </Button>
       </DialogTrigger>
       <DialogContent className="sm:max-w-md">

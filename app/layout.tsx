@@ -10,10 +10,6 @@ const Navbar = dynamic(() => import("../components/navbar/navbar"), {
   ssr: false,
 });
 
-const CookiesConsent = dynamic(() => import("../components/cookiesconsent"), {
-  ssr: false,
-});
-
 const Footer = dynamic(() => import("../components/footer"), {
   ssr: false,
 });
