@@ -1,8 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 "use client";
 
-import { useTranslationStore } from "@/hooks/useTranslation";
-import TRANSLATION from "@/translations/translation";
 import { Project } from "@/types";
 
 interface ProjectVideoProps {
@@ -10,8 +8,6 @@ interface ProjectVideoProps {
 }
 
 const ProjectVideo = ({ project }: ProjectVideoProps) => {
-  const { language } = useTranslationStore();
-
   return (
     <div className="flex flex-col gap-2">
       <div className="relative flex bg-primary text-rose-500 w-full text-center items-center justify-center rounded-xl">
