@@ -52,6 +52,7 @@ const Shortcuts = () => {
       </Button>
       <Button
         onClick={() => window.open("https://drive.google.com/file/d/13hnhiZsQVcffXUrsQJrL6UABpMZ2DOnF/view?usp=drive_link", "_blank")}
+        
         variant="link">
           View CV
       </Button>
