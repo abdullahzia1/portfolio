@@ -2,7 +2,7 @@ const DROPBOX_CONTENT = {
   titleVideo:
     "https://dl.dropboxusercontent.com/scl/fi/kfvrri1r7qdr3vn2z61bk/titlevideo.mp4?rlkey=t3xscp7prok74snt51dyj5qr0&st",
   profPic:
-    "https://uc9cdf93bbfcbac6d30566596a6b.previews.dropboxusercontent.com/p/thumb/ACesFxjyGfPAOtqnawkGbPG_1bJlC0mbOaxXyYr4xGq9ED_lGLa0STlTzKEZMY6eLqZIhBvSpNpg1Ne7-wHvblcK1SurCxzzOhKxvMYPLY8JLByzyW4a9QVcd00zBSQO1OY0quCtQ5GL0-N6Cmyts_cnCnnNsmMgDnkXvrz1DXwG40Z104mXmj5I4K-5_NIl49-2V0_3Dqk5rdhLDL3GBRFQasqPx7KSjWr879on1-je1acKDWN6L888s9nIae0Zh0cdBlVgXgbqf015P4TCImcNCPdpA4fOhnv-WaTpMKtnS0EmPv-ynx-AKbhp31g90EdZj5i3YZ5GvVZkK7O1wcruvcyAByZf8sn8rLB58FO64cew1PpXgUKEviNVZEEOp_28LbP1tK56Z-Fgg9JnMSwU/p.jpeg?is_prewarmed=true",
+    "https://raw.githubusercontent.com/abdullahzia1/urlforPictures/refs/heads/main/profile.jpg",
   thumbnail_ECOMMERCEAPI:
     "https://uc5084f04fd0523ec3449060922c.previews.dropboxusercontent.com/p/thumb/ACSfywknig-xeaNcmyvLFHBpLpLDzhP9mf-zREPQ4dy-p4UXi-yWPeZnRbUIH7AWzpP5DVH1Dir42Hn7Qa1tyUgE1K5BSxITq281_aAu4QlcfAWnAQGoPBtknDAXbBduz6y2kMdP0LGrpY9TZpMy_q51nd6EHnnxOPlvfRLhYjjNhZ1SjuR9c1roETE_FDBQHcuga3eQqwxipd7mDDdl528eHh7cxaXomhUHjBFtmGGp-bIHYGGbECJqS5FiYa-ehRc-x-lm7_vVmgJ_7qOrGAz4qLff8LBj4s4UhYOvd8JgZv2T8iRMZNrq70SoaLtS8uEzfHeyykNBSbNr5_1UbDqOBrP39bSGwMA0Qg2n5yaR0hrK1jOMy1EeAkum6xGNTC6xhotjhP1zA5CYrHIq_Koa/p.png",
   thumbnail_BOOKREVIEWAPI:
