@@ -10,7 +10,7 @@ const EXPERIENCES: Experience[] = [
     to: null,
     location: "Hybrid",
     description:
-      "Leading and training devs on the team, working with a cross-functional team on a full-stack application that integrates with multiple third-party APIs and microservices",
+      "Leading and training interns, working with a cross-functional team on a full-stack application that integrates with multiple third-party APIs and microservices",
     skills: [
       {
         name: "Strapi",
