@@ -27,10 +27,10 @@ const EXPERIENCES: Experience[] = [
     ],
   },
     {
-    title: "Node.js Intern",
+    title: "Associate Software Engineer",
     company: "Amigo Software Limited",
     from: "11/2023",
-    href: "https://abdullahzia.xyz",
+    href: "https://abdullahzia.pro",
     to: "12/2024",
     location: "Lahore, Pakistan",
     description:
