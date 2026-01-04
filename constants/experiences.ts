@@ -27,34 +27,11 @@ const EXPERIENCES: Experience[] = [
     ],
   },
     {
-    title: "Contract Developer",
-    company: "Medrevn",
-    from: "11/2024",
-    to: "01/2025",
-    location: "Onsite",
-    description:
-      "Developed a full-stack application from scratch to deployment using Github actions for CI/CD and Docker for containerization. The purpose of the application was to monitor workforce efficiency and productivity.",
-    skills: [
-      {
-        name: "Electron JS",
-        icon: "https://img.shields.io/badge/-Electron-informational?style=for-the-badge&color=black&logo=Electron.js",
-      },
-      {
-        name: "MERN",
-        icon: "https://img.shields.io/badge/-MERN-informational?style=for-the-badge&color=black&logo=MERN",
-      },
-      {
-        name: "Docker",
-        icon: "https://img.shields.io/badge/-docker-informational?style=for-the-badge&color=black&logo=docker",
-      },
-    ],
-  },
-    {
     title: "Node.js Intern",
     company: "Amigo Software Limited",
-    from: "08/2024",
+    from: "11/2023",
     href: "https://abdullahzia.xyz",
-    to: "10/2024",
+    to: "12/2024",
     location: "Lahore, Pakistan",
     description:
       "I built two full stack applications as my intern tasks, utilized multi threading in node.js to optimize the app performance and used core HTTP module for secure data transmission between 3rd Party APIs. Improved UX by implementing refresh tokens and created a responsive design of a test app for a potential customer at Amigo Software.",
@@ -102,6 +79,29 @@ const EXPERIENCES: Experience[] = [
       {
         name: "Angular",
         icon: "https://img.shields.io/badge/angular-%23316192.svg?style=for-the-badge&color=black&logo=websockets&logoColor=white%22",
+      },
+    ],
+  },
+    {
+    title: "Contract Developer",
+    company: "Medrevn",
+    from: "09/2023",
+    to: "11/2023",
+    location: "Onsite",
+    description:
+      "Developed a full-stack application from scratch to deployment using Github actions for CI/CD and Docker for containerization. The purpose of the application was to monitor workforce efficiency and productivity.",
+    skills: [
+      {
+        name: "Electron JS",
+        icon: "https://img.shields.io/badge/-Electron-informational?style=for-the-badge&color=black&logo=Electron.js",
+      },
+      {
+        name: "MERN",
+        icon: "https://img.shields.io/badge/-MERN-informational?style=for-the-badge&color=black&logo=MERN",
+      },
+      {
+        name: "Docker",
+        icon: "https://img.shields.io/badge/-docker-informational?style=for-the-badge&color=black&logo=docker",
       },
     ],
   },
